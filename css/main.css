@@ -4,74 +4,401 @@ body{margin:0 0;min-width: 1280px;font-family: '微软雅黑';}
 .col-md-3{width:25%;float:left;}
 .col-md-4{width:33.33%;float:left;}
 .col-md-6{width:50%;float: left;}
-.col-md-8{width:66.67%;}
+.col-md-8{width:66.67%;float: left;}
 .container{width:90%;margin:0 auto;}
 .text-center{text-align: center;}
 .center-block{display: block;margin:0 auto;}
 /*1.navbar*/
-.navbar{height:50px;line-height: 50px;padding-left: 50px;padding-right: 50px;}
-.nav-left{width:50%;float:left;}
-.nav-title{font-family:'黑体';font-size: 21px;font-weight:bold;}
-.nav-logo{position: relative;top:10px;}
-.nav-right{width:50%;float:left;font-size:14px;}
-.nav-tabs{width:90px;float:right;text-align: center;}
-.nav-tabs-select{color:rgb(231,79,77);border-bottom: 2px solid rgb(231,79,77);}
+.navbar{
+	height:50px;
+	line-height: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.nav-left{
+	width:50%;
+	float:left;
+}
+.nav-title{
+	font-family:'黑体';
+	font-size: 21px;
+	font-weight:bold;
+}
+.nav-logo{
+	position: relative;
+	top:10px;
+}
+.nav-right{width:50%;
+	float:left;
+	font-size:14px;
+}
+.nav-tabs{width:90px;
+	float:right;
+	text-align: center;
+}
+.nav-tabs-select{
+	color:rgb(231,79,77);
+	border-bottom: 2px solid rgb(231,79,77);
+}
 .nav-tabs:hover{
-	color:rgb(231,79,77);border-bottom: 2px solid rgb(231,79,77);cursor: pointer;
+	color:rgb(231,79,77);
+	border-bottom: 2px solid rgb(231,79,77);
+	cursor: pointer;
 }
 /*2.banner*/
-.banner{height:690px;position: relative;overflow-y:hidden;width:100%;}
-.banner-img{width:100%;height:auto;z-index: 1;}
-.banner-title{position:absolute;top:200px;z-index:2;color: #fff;font-size: 60px;left:120px;}
-.banner-text{position: absolute;top:300px;left:120px;color:#fff;z-index:2;font-size: 21px;}
-.banner-button{background-color: rgb(231,79,77);color: #fff;z-index: 2; position: absolute;top:400px;left: 120px;border:none;width:280px;height: 60px;line-height: 60px;font-size: 30px;}
+.banner{
+	height:690px;
+	position: relative;
+	overflow-y:hidden;
+	width:100%;
+}
+.banner-img{
+	width:100%;
+	height:auto;
+	z-index: 1;
+}
+.banner-title{
+
+	position:absolute;
+	top:200px;
+	z-index:2;
+	color: #fff;
+	font-size: 60px;
+	left:120px;
+}
+.banner-text{
+	position: absolute;
+	top:300px;
+	left:120px;
+	color:#fff;
+	z-index:2;
+	font-size: 21px;
+}
+.banner-button{
+	background-color: rgb(231,79,77);
+	color: #fff;
+	z-index: 2;
+	position: absolute;
+	top:400px;
+	left: 120px;
+	border:none;
+	width:280px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+}
 /*3.about*/
-.about{margin-top: 50px;margin-bottom: 50px;height:150px;}
-.tip{padding:0 25px;color:#767777;margin-top: 30px;padding-bottom: 15px;}
-.left-line{border-left: 2px solid #767777;}
-.right-line{border-right:1px solid #767777;}
+.about{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height:150px;
+}
+.tip{
+	padding:0 25px;
+	color:#767777;
+	margin-top: 30px;
+	padding-bottom: 15px;
+}
+.left-line{
+	border-left: 2px solid #767777;
+}
+.right-line{
+	border-right:1px solid #767777;
+}
 /*4.slogan*/
-.slogan{display:block;padding:50px 0;height:260px;position: relative;background-color: rgb(237,237,236);}
-.slogan-text{color:#a1a1a1;font-size: 52px;margin-top: 30px;}
+.slogan{
+	display:block;
+	padding:50px 0;
+	height:260px;
+	position: relative;
+	background-color: rgb(237,237,236);
+}
+.slogan-text{
+	color:#a1a1a1;
+	font-size: 52px;
+	margin-top: 30px;
+}
 /*5.search*/
-.search{position: relative;height:341px;width:100%;background: url('../img/map.png') no-repeat;background-size:100% auto; }
-.search-title{color:#fff;font-size: 21px;position: relative;top:50px;}
-#search-line{width:30px;height:2px;background-color: #fff;top: 55px;position: relative;}
-#search-text{color:#fff;font-size: 12px;position: relative;top:70px;}
-.search-box{position: relative;top:100px;}
-.search-select{width:80%;border:4px solid #fff;-webkit-appearance: none;appearance:none;-moz-appearance:none;appearance:none;
-height:40px;background: url('../img/select.png') no-repeat scroll right center #fff;padding-right: 15px;color: #a8aaaa;}
-.search-button{width:80%;height:40px;line-height: 40px;background-color: rgb(231,79,77);color:#fff;font-size: 14px;border:none;}
-.search-select:hover{box-shadow: 0 0 2px rgb(231,79,77);cursor: pointer;}
-/*gallery*/
-.gallery{height:500px;padding-top:100px;background-color: rgb(247,247,247);}
-.gallery-img{border: 1px solid rgb(210,210,210);padding:10px 5px;border-bottom: none;}
-.img-title{color: rgb(50,50,50);font-size: 16px;margin-top: 15px;}
-.img-desc{color:rgb(159,159,159);font-size: 14px;margin-top: 6px;}
-#shanghai{border: 1px solid rgb(210,210,210);}
-#shanghai-title{margin-top: 0;letter-spacing: 30px;font-size: 24px;text-align: center;margin-left: 30px;.}
+.search{
+	position: relative;
+	height:341px;
+	width:100%;
+	background: url('../img/map.png') no-repeat;
+	background-size:100% auto;
+	 }
+.search-title{
+	color:#fff;
+	font-size: 21px;
+	position: relative;
+	top:50px;
+}
+#search-line{
+	width:30px;
+	height:2px;
+	background-color: #fff;
+	top: 55px;
+	position: relative;
+}
+#search-text{
+	color:#fff;
+	font-size: 12px;
+	position: relative;
+	top:70px;
+}
+.search-box{
+	position: relative;
+	top:100px;
+}
+.search-select{
+	width:80%;
+	border:4px solid #fff;
+	-webkit-appearance: none;
+	appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	height:40px;
+	background: url('../img/select.png') no-repeat scroll right center #fff;
+	padding-right: 15px;
+	color: #a8aaaa;
+}
+.search-button{
+	width:80%;
+	height:40px;
+	line-height: 40px;
+	background-color: rgb(231,79,77);
+	color:#fff;
+	font-size: 14px;
+	border:none;
+}
+.search-select:hover{
+	box-shadow: 0 0 2px rgb(231,79,77);
+	cursor: pointer;
+}
+/*5.gallery*/
+.gallery{
+	height:500px;
+	padding-top:100px;
+	background-color: rgb(247,247,247);
+}
+.gallery-img{
+	border: 1px solid rgb(210,210,210);
+	padding:10px 5px;
+	border-bottom: none;
+}
+.img-title{
+	color: rgb(50,50,50);
+	font-size: 16px;
+	margin-top: 15px;
+}
+.img-desc{
+	color:rgb(159,159,159);
+	font-size: 14px;
+	margin-top: 6px;
+}
+#shanghai{
+	border: 1px solid rgb(210,210,210);
+}
+#shanghai-title{
+	margin-top: 0;
+	letter-spacing: 30px;
+	font-size: 24px;
+	text-align: center;
+	margin-left: 30px;
+}
 
-/*world*/
-.world-box{position: relative;background: url('../img/pic1.png') no-repeat;background-size: 100% auto;overflow: hidden;height:565px;}
-.tri{position: absolute;top:270px;right:0;width:0;height:0;border-right: 30px solid #fff;border-top: 15px solid transparent;border-bottom: 15px solid transparent;}
+/*6.world*/
+.world{
+	position: relative;
+	height:568px;
+}
+.world-box{
+	color:#fff;
+	position: relative;
+	background: url('../img/pic1.png') no-repeat;
+	background-size: 100% auto;
+	overflow: hidden;
+	height:568px;
+}
+.tri{
+	position: absolute;
+	top:270px;
+	right:0;
+	width:0;
+	height:0;
+	border-right: 30px solid #fff;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+#world{
+	font-size: 49px;
+	margin: 0 0;
+}
+#time{
+	font-size: 157px;
+	margin:0 0;
+	height:138px;
+	line-height: 138px;
+}
+#beijing,#date{
+	font-size: 21px;
+	margin:0 0;
+}
+#beijing{margin-top: 1em;}
+.world-text{margin-top: 140px;}
 
+.world-maintext{position: relative;}
+#top-text-content{
+	color: #aaa;
+	font-size: 12px;
+	line-height: 24px;
+	margin-top: 50px;
+}
+#top-text{
+	width:70%;
+	margin:0 auto;
+	margin-top: 123px;
+}
+#top-text-title{font-size: 21px;}
+#line{
+	display: inline-block;
+	width:30px;
+	height: 2px;
+	background-color: #766d6a;
+	-webkit-transform:rotate(-45deg); 
+	-moz-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg); 
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	position: relative;
+	bottom: 6px;}
+.more-detail{
+	margin-top: 60px;
+	border: 1px solid rgb(231,79,77);
+	color:rgb(231,79,77);
+	width:120px;
+	height:40px;
+	line-height: 40px;
+}
+.more-detail:hover{cursor: pointer;}
+.more-detail:active{background-color: rgb(231,79,77);color:#fff;}
+.dots-box{margin-top:50px;}
+.dots{
+	display: inline-block;
+	margin:0 15px;
+	width: 16px;
+	height:16px;
+	border:1px solid rgb(147,147,147);
+	border-radius: 50%;
+}
+.dots:hover{cursor: pointer;}
+.dots:active{background-color: rgb(147,147,147);}
+.dots-select{background-color:rgb(147,147,147); }
 
+/*7.more*/
+.more{
+	height: 568px;
+	position: relative;
+}
+.more-left{
+	height:568px;
+	background-color: rgb(231,79,77);
+}
+.more-text{
+	line-height: 40px;
+	font-size: 21px;
+	margin-top:200px;
+}
+.more-line{
+	width:30px;
+	height:2px;
+	background-color: rgb(231,79,77);
+	margin-top: 20px;
+}
+.more-button{
+	width:160px;
+	height:40px;
+	border: 1px solid #000;
+	font-size: 21px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+.white-text{color:white;}
+.white-button{border:1px solid #fff;color:#fff;}
+.white-line{background-color: #fff;}
 
+.red-line{background-color: rgb(147,147,147);}
+.red-button{
+	border:1px solid rgb(231,79,77);
+	color:rgb(231,79,77);
+}
+.more-right{
+	height: 560px;
+	background-color: #fff;
+}
+.more-button{cursor:pointer;}
+.more-pic{
+	position: relative;
+	background: url('../img/pic2.png') no-repeat;
+	height:568px;
+	overflow: hidden;
+	background-size: 100% auto;
+}
+.right-tri{
+	position: absolute;
+	top:270px;
+	left:0;
+	width:0;
+	height:0;
+	border-left: 30px solid #fff;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+.white-button:hover{
+	border:1px solid rgb(231,79,77);
+	color:rgb(231,79,77);
+	background-color: #fff;
+}
+.red-button:hover{
+	border:1px solid #fff;
+	color:#fff;
+	background-color: rgb(231,79,77);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*8.form*/
+.form{
+	height:600px;
+	position: relative;
+}
+.form-title{
+	font-size: 21px;
+	font-family: '黑体';
+	margin-top: 100px;
+}
+.form-top{
+	color:#aaa;
+	margin-top: 20px;
+}
+.form-content{margin-top:70px;}
+.form-block{
+	margin-bottom: 40px;
+}
+.block-title{
+	color:#231815;
+	font-size: 14px;
+}
+.block-content{
+	font-size: 12px;
+	color:rgb(147,147,147);
+	margin-top: 30px;
+}
+.block-more{
+	position: relative;
+	right:0;
+	margin-top: 20px;
+	font-size: 12px;
+	color:rgb(147,147,147);
+	text-align: right;
+}
 
 
 
