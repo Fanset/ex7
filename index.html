@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-	<nav class='navbar'>
+	<nav class='navbar' id="navbar">
 		<div class="nav-left">
 			<img src="./img/books_s.png" class="nav-logo" alt="">
 
@@ -227,11 +227,67 @@
 			</div>
 			<div class="col-md-8">
 				<div class="container">
-					<div class="form-line"></div>
-					<div class="form-line"></div>
+					<form action="">
+					<div class="form-line">
+						<div class="col-md-6">
+							<div class="input-box-left">
+								<input class="form-input" type="text" placeholder="姓名：" value="&nbsp;&nbsp;&nbsp;&nbsp;姓名：">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="input-box-right">
+								<input class="form-input" type="text" placeholder="年龄：" value="&nbsp;&nbsp;&nbsp;&nbsp;年龄：">
+							</div>
+						</div>
+					</div>
+					<div class="form-line line-margin">
+						<div class="col-md-6">
+							<div class="input-box-left">
+								<input class="form-input" type="text" placeholder="联系方式：" value="&nbsp;&nbsp;&nbsp;&nbsp;联系方式：">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="input-box-right">
+								<input class="form-input" type="text" placeholder="联系地址：" value="&nbsp;&nbsp;&nbsp;&nbsp;联系地址：">
+							</div>
+						</div>
+					</div>
+					<div class="line-margin" style="height:180px;">
+						<div class="col-md-12">
+							<textarea name="" id="text-area" cols="30" rows="10">&nbsp;请简单描述你梦想的生活：</textarea>
+						</div>
+					</div>
+					<div class="line-margin form-line">
+							<input type="submit" class="form-submit" value="提交申请">
+
+					</div>
+					</form>
 				</div>
 			</div>
 		</div>
 	</section>
+	<section class="bottom">
+		<div class="bottom-title text-center">联系我们</div>
+		<div class="bottom-detail text-center">为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯 也可以通过以下任何方式关注我们动态</div>
+		<div class="bottom-submit">
+			<div class="col-md-10">
+				<input type="text" id="bottom-input" placeholder="&nbsp;someone@email.com">
+			</div>
+			<div class="col-md-2">
+				<input type="submit" id="bottom-submit" class="text-center" value="&nbsp;提交">
+			</div>
+			
+		</div>
+		<div class="bottom-icons text-center">
+			<img src="./img/qq.png" alt="" class="icons">
+			<img src="./img/weibo.png" alt="" class="icons">
+			<img src="./img/twitter.png" alt="" class="icons">
+			<img src="./img/earth.png" alt="" class="icons">
+		</div>
+	</section>
+	<footer class="my-footer">
+		<span class="footer-left">@2016新世界</span>
+		<span class="footer-right" ><a href="#navbar" id="rollup">Back to top</a></span>
+	</footer>
 </body>
 </html>
